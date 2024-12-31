@@ -1,0 +1,281 @@
+##Saxon
+##Dutch
+##French
+##frisian
+###c_oversticht
+2421 = {	#ZWOLLE
+	culture = saxon
+	religion = catholic
+	holding = castle_holding
+}
+2416 = {	#KAMPEN
+	holding = none
+	1200.1.1 = {
+		holding = city_holding
+	}
+}
+2423 = {	#OMMEN
+	holding = city_holding
+}
+2431 = {	#ALMELO
+	holding = none
+	1200.1.1 = {
+		holding = city_holding
+	}
+}
+2422 = {	#COEVORDEN
+	holding = none
+}
+###c_groningen
+2417 = {	#GRONINGEN
+	culture = saxon
+	religion = catholic
+	holding = castle_holding
+}
+2420 = {	#ASSEN
+	holding = none
+	1258.1.1 = {
+		holding = church_holding
+	}
+}
+2419 = {	#EMMEN
+	holding = city_holding
+}
+2452 = {	#STEENWIJK
+	holding = none
+}
+##d_frisia ###################################
+###c_dokkum
+2414 = {	#DOKKUM
+	culture = frisian
+	religion = catholic
+	holding = castle_holding
+	}
+}
+2415 = {	#APPPINGEDAM
+	holding = none
+	1200.1.1 = {
+		holding = city_holding
+	}
+}
+2453 = {	#DELFZIJL
+	holding = none
+}
+
+###c_ostfriesland
+2418 = {	#EMDEN
+	culture = frisian
+	religion = catholic
+	holding = castle_holding
+}
+2437 = {	#WILHELMSHAVEN
+	holding = none
+}
+2454 = {	#VAREL
+	holding = none
+	1144.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_frisia
+2413 = {	#LEEUWARDEN
+	culture = frisian
+	religion = catholic
+	holding = castle_holding
+}
+2410 = {	#STAVEREN
+	holding = none
+	1060.1.1 = {
+		holding = city_holding
+	}
+}
+2411 = {	#HARLINGEN
+	holding = none
+}
+2412 = {	#WAADEILANNEN
+	holding = none
+}
+###c_guines
+2130 = {	#CALAIS
+	culture = dutch
+	religion = catholic
+	holding = castle_holding
+}
+2129 = {	#GRAVELINES
+	holding = church_holding
+}
+2133 = {	#SAINT OMER
+	holding = city_holding
+}
+
+###c_lille
+2126 = {	#LILLE
+	culture = dutch
+	religion = catholic
+	holding = castle_holding
+}
+2123 = {	#COURTRAI
+	holding = city_holding
+}
+2134 = {	#AIRE
+	holding = none
+	1059.1.1 = {
+		holding = castle_holding
+	}
+}
+###c_maastricht
+2099 = {	#MAASTRICHT
+	culture = dutch
+	religion = catholic
+	holding = castle_holding
+}
+2100 = {	#EINDHOVEN
+	holding = none
+}
+2110 = {	#TILBURG
+	holding = city_holding
+}
+###c_boulogne
+2132 = {	#BOULOGNE
+	culture = dutch
+	religion = catholic
+	holding = castle_holding
+	1000.1.1 = {
+		culture = french
+	}
+}
+
+2136 = {	#MONTREUIL SUR MER
+	holding = church_holding
+}
+2137 = {	#ABBEVILLE
+	holding = church_holding
+}
+2135 = {	#HESDIN
+	holding = none
+
+	1178.1.1 = {
+		holding = city_holding
+	}
+}
+###c_luxembourg
+2082 = {	#LUXEMBOURG
+	culture = franconian
+	religion = catholic
+	holding = castle_holding
+}
+2090 = {	#BASTOGNE
+	holding = city_holding
+}
+2449 = {	#CLERVAUX
+	holding = castle_holding
+}
+2699 = {	#VIANDEN
+	holding = city_holding
+}
+2089 = {	#DIEKIRCH
+	holding = church_holding
+}
+###c_cleves
+2104 = {	#KLEVE
+	culture = dutch
+	religion = catholic
+	holding = castle_holding
+}
+2102 = {	#GLADBACH
+	holding = none
+	974.1.1 = {
+		holding = church_holding
+	}
+}
+2435 = {	#WEZEL
+	holding = none
+}
+2101 = {	#MOERS
+	holding = none
+	1150.1.1 = {
+		holding = city_holding
+	}
+}
+###c_dortmund
+2673 = {	#DORTMUND
+	culture = dutch
+	religion = catholic
+	holding = castle_holding
+}
+2677 = {	#ESSEN
+	holding = church_holding
+}
+2675 = {	#RECKLINGHAUSEN
+	holding = none
+	1000.1.1 = {
+		holding = city_holding
+	}
+}
+###c_hainaut
+2117 = {	#MONS
+	culture = dutch
+	religion = catholic
+	holding = castle_holding
+	1000.1.1 = {
+		culture = french
+	}
+}
+2127 = {	#TOURNAI
+	holding = city_holding
+}
+2120 = {	#ATH
+	holding = none
+	1160.1.1 = {
+		holding = church_holding
+	}
+}
+###c_ribe
+60 = {		#RIBE
+	culture = frisian
+	religion = norse_pagan
+	holding = tribal_holding
+	965.1.1 = {
+		religion = catholic
+		holding = castle_holding
+		culture = frisian
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			curtain_walls_01
+			#military_camps_01
+		}
+	}
+}
+83 = {		#VARDE
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+220 = {		#STRAND
+	holding = none
+}
+###c_westfriesland
+2405 = {	#HAARLEM
+	culture = frisian
+	religion = catholic
+	holding = castle_holding
+	1000.1.1 = {
+		culture = dutch
+	}
+}
+2408 = {	#EDAM
+	holding = none
+	1230.1.1 = {
+		holding = city_holding
+	}
+}
+2409 = {	#MEDEMBLIK
+	holding = none
+}
+2407 = {	#AALKMAR
+	holding = city_holding
+}
