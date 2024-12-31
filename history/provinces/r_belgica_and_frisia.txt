@@ -279,3 +279,37 @@
 2407 = {	#AALKMAR
 	holding = city_holding
 }
+###c_slesvig
+62 = {		#HEDEBY
+	culture = saxon
+	religion = norse_pagan
+	holding = tribal_holding
+	special_building_slot = danevirke_01
+	700.1.1 = {
+		special_building = danevirke_01
+	}
+	965.1.1 = {
+		culture = saxon
+		religion = catholic
+		holding = castle_holding
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			ramparts_01
+			#military_camps_01	
+		}
+	}
+}
+61 = {		#AABENRAA
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+84 = {		#HUSUMBRO
+	holding = church_holding
+	700.1.1 = {
+		special_building = danevirke_01
+	}
+}

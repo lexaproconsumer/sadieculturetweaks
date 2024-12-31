@@ -87,3 +87,107 @@ old_saxon = {
 		25 = caucasian_northern_dark_hair
 	}
 }
+gothic = {
+	color = gothic
+	
+	ethos = ethos_bellicose
+	heritage = heritage_gothic
+	language = language_gothic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_isolationist
+		tradition_martial_admiration
+		tradition_stand_and_fight
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_visigothic
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = { # Copied from Norse
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+visigothic = {
+	color = { 0.55 0.55 0.15 }
+
+	created = 418.1.1 # Just calling the start of the kingdom as the split for now
+	parents = { gothic }
+
+	ethos = ethos_egalitarian
+	heritage = heritage_gothic
+	language = language_gothic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_visigothic_codes
+		tradition_hit_and_run
+		tradition_martial_admiration
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_visigothic
+	
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+ostrogothic = {
+	color = { 0.55 0.55 0.15 }
+
+	created = 418.1.1 # Just calling the start of the kingdom as the split for now
+	parents = { gothic }
+
+	ethos = ethos_egalitarian
+	heritage = heritage_gothic
+	language = language_gothic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_malleable_invaders
+		tradition_hit_and_run
+		tradition_martial_admiration
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_visigothic
+	
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}

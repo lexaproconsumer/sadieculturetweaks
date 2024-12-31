@@ -1,0 +1,586 @@
+###c_cherso
+2521 = {	#Cherso / Cres
+	culture = dalmatian
+	religion = orthodox
+	holding = castle_holding
+	1066.1.1 = {
+		religion = catholic
+		culture = dalmatian
+	}
+}
+459 = {		#Krk / Veglia
+	holding = city_holding
+	#Pretty old city
+}
+###c_ragusa
+468 = {		#Ragusa
+	culture = dalmatian
+	holding = castle_holding
+	870.1.1 = {
+		religion = orthodox
+		#Serbs convert in 870
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			pastures_01
+		}
+	}
+}
+###c_cetina
+3551 = {	#Sinj / c_sinjcroat
+	culture = dalmatian
+	religion = orthodox
+	holding = castle_holding
+	1066.1.1 = {
+		culture = dalmatian
+		religion = catholic
+	}
+}
+###c_gacka
+464 = {		#Senj
+	culture = dalmatian
+	religion = catholic
+	holding = castle_holding
+}
+3540 = {	#Brinje
+	holding = none
+}
+2523 = {	#Rijeka
+	holding = city_holding
+	#old city since roman times
+}
+###c_pula
+2518 = {	#PULA
+	culture = dalmatian
+	religion = catholic
+	holding = castle_holding
+}
+2519 = {	#PIRAN
+	holding = city_holding
+}
+2520 = {	#PAZIN
+	holding = none
+	980.1.1 = {
+		holding = castle_holding
+	}
+}
+2522 = {	#LABIN
+	holding = none
+}
+###c_hvosno
+3596 = {	#Priština
+	culture = albanian
+	religion = catholic
+	holding = castle_holding
+}
+3597 = {	#Prizren
+	holding = city_holding
+	#Important city, already from roman times
+}
+3595 = {	#Pec
+	holding = church_holding
+	#Set as church_holding to have all 3 holding types
+}
+3594 = {	#Zvecan
+	holding = castle_holding
+	#1st mention around 1090
+	special_building_slot = trepca_mines_01
+	1050.1.1 = {
+		#holding = castle_holding
+	}
+}
+3593 = {	#Podujevo
+	holding = none
+}
+###c_duklja
+469 = {		#Zeta / b_ribnicapodgorica / Ribnica / Podgorica
+	culture = albanian
+	religion = scatholic
+	holding = castle_holding
+	870.1.1 = {
+		religion = orthodox
+	}
+}
+503 = {		#Hum / b_plav
+	holding = none
+	#1050.1.1 = {
+	#	religion = bogomilist
+	#}
+	#1200.1.1 = { religion = orthodox }
+}
+3578 = {	#Drivast
+	holding = church_holding
+}
+3579 = {	#Danj
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+3580 = {	#Skadar AKA Shköder
+	holding = castle_holding
+	#Inhabitted since Antiquity
+}
+3577 = {	#Moraca
+	holding = none
+}
+###c_marmaros
+539 = {		#Marmaros
+	culture = croatian
+	religion = slavic_pagan
+	holding = tribal_holding
+	
+	900.1.1 = {
+		religion = catholic
+	}
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	950.1.1 = {
+		culture = russian
+	}
+}
+3914 = {	#Tecso aka modern Tiachiv
+	holding = none
+	
+	1066.1.1 = {
+		holding = city_holding
+		#1st mention in 1211
+		#Set as city_holding in 1066 to fill some holding slots
+	}
+}
+3915 = {	#Borsa
+	holding = none
+	#1st mention in XIVth
+}
+3917 = {	#Huszt aka Khust
+	holding = none
+	
+	1066.1.1 = {
+		holding = castle_holding
+		#Supposedly built in 1090
+		#Set in 1066 instead to have some holdings filled
+	}
+}
+3918 = {	#Okormezo AKA Mizhhirya
+	holding = none
+	#Established in XVth
+}
+###c_bereg
+537 = {		#Bereg
+	culture = croatian # White Croats
+	religion = slavic_pagan
+	holding = tribal_holding
+	
+	900.1.1 = {
+		religion = catholic
+	}
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	950.1.1 = {
+		culture = slovien
+	}
+}
+3913 = {	#Nagyszolos AKA Vynohradiv
+	holding = none
+	#1st mention in 1262
+}
+3893 = {	#Munkacz AKA Mukachevo
+	holding = none
+	
+	935.1.1 = {
+		holding = city_holding
+		#Existed in 1397, area already likely settled in late IXth
+	}
+}
+3894 = {	#Alsoverecke AKA Nyzhni Vorota
+	holding = none
+	#1st mention in XIIIth
+}
+3898 = {	#Borsova
+	holding = none
+}
+###c_ungvar
+3897 = {	#Ungvar
+	culture = croatian # White Croats
+	religion = slavic_pagan
+	holding = tribal_holding
+	
+	900.1.1 = { religion = catholic }
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	950.1.1 = { culture = slovien }
+}
+3895 = {	#Nagyberezna AKA modern Velykyi Bereznyi
+	holding = none
+	#Established in XVth century
+}
+###c_zemplen
+3885 = {	#Zemplen
+	culture = croatian # White Croats
+	religion = slavic_pagan
+	holding = tribal_holding
+	
+	900.1.1 = { religion = catholic }
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	950.1.1 = { culture = slovien }
+}
+3886 = {	#Szerencs
+	holding = none
+	#1st mention in 1241
+	#Monastery apparently built in XIIth
+}
+3887 = {	#Zynna AKA modern Sena
+	holding = none
+	
+	935.1.1 = {
+		holding = city_holding
+		#1st mention in 1249
+		#Likely inhabited before for a very long time, and royal domain of the region in Arpad times
+	}
+}
+3888 = {	#Toporo
+	holding = none
+}
+3896 = {	#Varanno AKA Vranov nad Toplou
+	holding = none
+	
+	935.1.1 = {
+		holding = city_holding
+		#First mentions in XIIIth & XIVth, but already populous in slavic times
+	}
+}
+###c_saris
+533 = {		#Saris
+	culture = croatian # White Croats
+	religion = slavic_pagan
+	holding = castle_holding
+	
+	900.1.1 = {
+		religion = catholic
+	}	
+	950.1.1 = {
+		culture = slovien
+	}
+}
+3860 = {	#Barfta
+	holding = none
+}
+###c_abauj
+538 = {		#Abauj
+	culture = croatian # White Croats
+	religion = slavic_pagan
+	holding = castle_holding
+	
+	861.1.1 = {
+		religion = catholic
+	}
+	950.1.1 = {
+		culture = slovien
+	}
+}
+3876 = {	#Kassa aka Košice
+	holding = city_holding
+	#Fairly populated with buildings & fortifications by slavs as soon as the IXth
+}
+3978 = {	#Torna
+	holding = none
+	#1st mention of Torna castle in 1387
+}
+###c_bodrog
+3863 = {	#Bodrog
+	culture = cuman
+	religion = tengri_pagan
+	holding = tribal_holding
+	
+	890.1.1 = {
+		religion = catholic
+	}
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	950.1.1 = {
+		culture = hungarian
+	}
+}
+###c_csongrad
+3865 = {	#Csongrad
+	culture = cuman
+	religion = tengri_pagan
+	holding = tribal_holding
+	
+	890.1.1 = {
+		religion = catholic
+	}
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	950.1.1 = {
+		culture = hungarian
+	}
+}
+###c_bekes
+3873 = {	#Bekes
+	culture = cuman
+	religion = tengri_pagan
+	holding = tribal_holding
+	
+	890.1.1 = {
+		religion = catholic
+	}
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	950.1.1 = {
+		culture = hungarian
+	}
+}
+###c_barcasag
+3942 = {	#Brasso
+	culture = vlach
+	religion = orthodox
+	holding = tribal_holding
+	
+	890.1.1 = {
+		religion = catholic
+	}
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	950.1.1 = {
+		culture = vlach
+	}
+}
+3943 = {	#Balvanyos
+	holding = none
+	#1st mention in XIVth
+}
+3944 = {	#Sepsiszentgyorgy AKA Sfântu Gheorghe
+	holding = none
+	
+	1066.1.1 = {
+		holding = city_holding
+		#1st mention in XIVth, but likely one of the oldest cities of the region
+	}
+}
+3945 = {	#Kovaszna AKA Covasna
+	holding = none
+	#1st mention in XVIth
+}
+###c_krasso
+3882 = {	#Kraso
+	culture = vlach
+	religion = orthodox
+	holding = tribal_holding
+
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	950.1.1 = {
+		culture = vlach
+		religion = orthodox	
+	}
+}
+3883 = {	#Ersomlyo
+	holding = none
+}
+3884 = {	#Fehertemplom AKA Bela Crkva
+	holding = none
+	#Seems to be from the XIVth at the earliest
+}
+###c_hunyad
+3931 = {	#Vajdahunyad
+	culture = vlach
+	religion = orthodox
+	holding = tribal_holding
+	
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	950.1.1 = {
+		culture = vlach	
+	}
+}
+3932 = {	#Harszoc
+	holding = none
+	
+	1066.1.1 = {
+		holding = church_holding
+		#Old church built there in the XIIIth, on the site of a roman temple
+	}
+}
+3933 = {	#Deva
+	holding = none
+	#1st mention in XIIIth
+}
+###c_rhodopes
+3617 = {	#Nevrokop
+	culture = vlach
+	religion = orthodox
+	holding = castle_holding
+
+	1066.1.1 = {
+		culture = vlach
+	}
+}
+3614 = {	#Kalyatta
+	holding = none
+}
+3615 = {	#Dospat
+	holding = none
+	#Founded around the XIIth-XIIIth
+}
+3616 = {	#Kavurskoto Kale
+	holding = none
+}
+###c_metzovo
+3702 = {	#Metzovo
+	culture = vlach
+	religion = orthodox
+	holding = castle_holding
+
+	1066.1.1 = {
+		culture = vlach
+	}
+}
+3703 = {	# 3703 - Gardiki
+	holding = none
+}
+3704 = {	# 3704 - Vrestenitsa
+	holding = none
+}
+3705 = {	# 3705 - Agrafa
+	holding = city_holding
+}
+###c_gemer
+524 = {		#Gemer
+	culture = slovien
+	religion = slavic_pagan
+	holding = castle_holding
+	
+	853.1.1 = {
+		religion = catholic
+	}
+	950.1.1 = {
+		culture = slovien
+	}
+}
+3858 = {	#Murany aka Murán aka Murányalja
+	holding = none
+	#1st mention in the XIIIth century
+}
+3859 = {	#Rimaszombat
+	holding = none
+	
+	1060.1.1 = {
+		holding = city_holding
+		#1st mention in 1271 but settlements from VIIth century
+		#Market town built probably in the 2nd half of XIth
+	}
+}
+3979 = {	#Szendro
+	holding = none
+	#1st mention in 1317
+}
+###c_borsod
+3870 = {	#Borsod
+	culture = slovien
+	religion = slavic_pagan
+	holding = castle_holding
+	
+	900.1.1 = {
+		religion = catholic
+	}
+	950.1.1 = {
+		culture = slovien
+	}
+}
+3871 = {	#Miskolc
+	holding = city_holding
+	#Populated for a very long time, even though first mention dates back to XIIIth
+}
+###c_gyor
+3823 = {	#Gyor
+	culture = slovien
+	religion = catholic
+	holding = tribal_holding
+	
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	1000.1.1 = {
+		culture = slovien
+	}
+}
+3822 = {	#Moson	AKA Mosonmagyaróvár
+	holding = none
+	
+	1066.1.1 = {
+		holding = castle_holding
+		#Fortified settlement with castle/fortress in the XIth
+	}
+}
+###c_sopron
+3817 = {	#Sopron
+	culture = slovien
+	religion = catholic
+	holding = tribal_holding
+	
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	1000.1.1 = {
+		culture = slovien
+	}
+}
+3818 = {	#Kapuvar
+	holding = none
+	
+	1066.1.1 = {
+		holding = city_holding
+		#1st mention in XIIth, but looks like it was already being developped in the Xth or XIth
+	}
+}
+3819 = {	#Koszeg
+	holding = none
+	#1st mention in XIIIth
+}
+###c_vas
+3820 = {	#Vasvar
+	culture = slovien
+	religion = catholic
+	holding = tribal_holding
+	
+	935.1.1 = {
+		holding = castle_holding
+		#Date used to switch ti feudal_government in title history
+	}
+	1000.1.1 = {
+		culture = slovien
+	}
+}
+3821 = {	#Kormend
+	holding = none
+	#1st mention in the XIIIth
+}
+3977 = {	#Szentgotthard
+	holding = none
+	#Original abbey founded in XIIth
+}

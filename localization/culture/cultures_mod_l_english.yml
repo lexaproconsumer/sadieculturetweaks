@@ -1,0 +1,35 @@
+﻿l_english:
+#
+ dutch:3 "Low Franconian"
+ dutch_prefix:1 "Lower Francono"
+ dutch_collective_noun:3 "Low Franconians"
+#
+ galloroman:0 "Gallo-Roman"
+ galloroman_prefix:0 "Gallo-Romano"
+ galloroman_collective_noun:0 "Gallo-Romans"
+#
+ heritage_gothic_name:0 "East Germanic"
+ heritage_gothic_collective_noun:0 "East Germanics"
+#
+ ostrogothic:1 "Ostrogothic"
+ ostrogothic_prefix:1 "Ostrogotho"
+ ostrogothic_collective_noun:1 "Ostrogoths"
+#
+ dalmatian:1 "Dalmatian"
+ dalmatian_prefix:1 "Dalmato"
+ dalmatian_collective_noun:1 "Dalmatians"
+#
+ heritage_aquitanian_name:0 "Aquitanian"
+ heritage_aquitanian_collective_noun:0 "Aquitanian"
+ aquitanian:1 "Aquitanian"
+ aquitanian_prefix:1 "Aquitano"
+ aquitanian_collective_noun:1 "Aquitanians"
+#
+ mozarab:1 "Mozarab"
+ mozarab_prefix:1 "Mozarabo"
+ mozarab_collective_noun:1 "Mozarabs"
+#
+ iberoroman:1 "Ibero-Roman"
+ iberoroman_prefix:1 "Ibero-Romano"
+ iberoroman_collective_noun:1 "Ibero-Romans"
+
